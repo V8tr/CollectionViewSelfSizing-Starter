@@ -35,11 +35,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Title]" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5p-dq-f4y">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Title]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhE-Oc-0R2">
                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="HDw-X3-laW"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -47,21 +44,16 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="X5p-dq-f4y" firstAttribute="top" secondItem="lgN-Yg-BpO" secondAttribute="top" id="EsX-TL-BW5"/>
-                                            <constraint firstAttribute="trailing" secondItem="X5p-dq-f4y" secondAttribute="trailing" id="dnX-0u-u18"/>
-                                            <constraint firstItem="X5p-dq-f4y" firstAttribute="leading" secondItem="lgN-Yg-BpO" secondAttribute="leading" id="enT-M4-5r1"/>
-                                            <constraint firstAttribute="bottom" secondItem="X5p-dq-f4y" secondAttribute="bottom" id="n3Q-Fp-2VR"/>
+                                            <constraint firstAttribute="bottom" secondItem="MhE-Oc-0R2" secondAttribute="bottom" id="Ahs-hP-uJ2"/>
+                                            <constraint firstAttribute="trailing" secondItem="MhE-Oc-0R2" secondAttribute="trailing" id="MEq-oX-WQg"/>
+                                            <constraint firstItem="MhE-Oc-0R2" firstAttribute="leading" secondItem="lgN-Yg-BpO" secondAttribute="leading" id="jEG-HW-hxQ"/>
+                                            <constraint firstItem="MhE-Oc-0R2" firstAttribute="top" secondItem="lgN-Yg-BpO" secondAttribute="top" id="jFD-kX-Byf"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="maxWidthConstraint" destination="HDw-X3-laW" id="4qj-Jm-nmn"/>
-                                            <outlet property="titleLabel" destination="X5p-dq-f4y" id="bWT-O1-Ftk"/>
+                                            <outlet property="titleLabel" destination="MhE-Oc-0R2" id="zFo-gi-hWs"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="9nd-rJ-BIK"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="b5P-1l-y4o"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,7 +67,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Example 1" id="5tT-zA-ea5"/>
                     <connections>
-                        <outlet property="collectionLayout" destination="ceP-yD-4DN" id="ffr-lc-u7q"/>
+                        <outlet property="collectionLayout" destination="ceP-yD-4DN" id="B13-Cx-slA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
