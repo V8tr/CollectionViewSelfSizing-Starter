@@ -12,7 +12,6 @@
 		80358054220346EB00B32795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80358052220346EB00B32795 /* Main.storyboard */; };
 		80358056220346ED00B32795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80358055220346ED00B32795 /* Assets.xcassets */; };
 		80358059220346ED00B32795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80358057220346ED00B32795 /* LaunchScreen.storyboard */; };
-		80B1060B2204AD88002BFB14 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B1060A2204AD88002BFB14 /* CollectionCell.swift */; };
 		80C9A47C2203557C00B6D8FD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9A47B2203557C00B6D8FD /* Item.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		80358055220346ED00B32795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80358058220346ED00B32795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8035805A220346ED00B32795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80B1060A2204AD88002BFB14 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		80C9A47B2203557C00B6D8FD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 				80358050220346EB00B32795 /* ViewController.swift */,
 				80C9A47B2203557C00B6D8FD /* Item.swift */,
 				80358052220346EB00B32795 /* Main.storyboard */,
-				80B1060A2204AD88002BFB14 /* CollectionCell.swift */,
 				8035806022034C5C00B32795 /* Supporting Files */,
 			);
 			path = CollectionViewSelfSizing;
@@ -152,7 +149,6 @@
 				80C9A47C2203557C00B6D8FD /* Item.swift in Sources */,
 				80358051220346EB00B32795 /* ViewController.swift in Sources */,
 				8035804F220346EB00B32795 /* AppDelegate.swift in Sources */,
-				80B1060B2204AD88002BFB14 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
