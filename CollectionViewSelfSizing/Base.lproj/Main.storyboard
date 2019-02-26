@@ -34,21 +34,7 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Title]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhE-Oc-0R2">
-                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="MhE-Oc-0R2" secondAttribute="bottom" id="Ahs-hP-uJ2"/>
-                                            <constraint firstAttribute="trailing" secondItem="MhE-Oc-0R2" secondAttribute="trailing" id="MEq-oX-WQg"/>
-                                            <constraint firstItem="MhE-Oc-0R2" firstAttribute="leading" secondItem="lgN-Yg-BpO" secondAttribute="leading" id="jEG-HW-hxQ"/>
-                                            <constraint firstItem="MhE-Oc-0R2" firstAttribute="top" secondItem="lgN-Yg-BpO" secondAttribute="top" id="jFD-kX-Byf"/>
-                                        </constraints>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
