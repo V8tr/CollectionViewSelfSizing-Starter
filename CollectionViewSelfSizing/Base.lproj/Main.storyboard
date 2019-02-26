@@ -28,30 +28,13 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="lgN-Yg-BpO" customClass="CollectionCell" customModule="CollectionViewSelfSizing" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="lgN-Yg-BpO" customClass="CollectionCell" customModule="CollectionViewSelfSizing" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[title]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egU-g0-PI0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="egU-g0-PI0" firstAttribute="leading" secondItem="lgN-Yg-BpO" secondAttribute="leading" id="6cw-cl-Mfd"/>
-                                            <constraint firstAttribute="bottom" secondItem="egU-g0-PI0" secondAttribute="bottom" id="SSM-4n-xn6"/>
-                                            <constraint firstItem="egU-g0-PI0" firstAttribute="top" secondItem="lgN-Yg-BpO" secondAttribute="top" id="T6O-tm-9l7"/>
-                                            <constraint firstAttribute="trailing" secondItem="egU-g0-PI0" secondAttribute="trailing" id="bsf-I4-0U8"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="titleLabel" destination="egU-g0-PI0" id="3kW-g1-wrR"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
