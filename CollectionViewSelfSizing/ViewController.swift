@@ -10,12 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var collectionLayout: UICollectionViewFlowLayout! {
-        didSet {
-            collectionLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-        }
-    }
-    
     let items: [Item] = [
         Item(title: "Lorem ipsum dolor sit amet, consectetur"),
         Item(title: "adipiscing elit, sed do eiusmod tempor"),
